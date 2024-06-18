@@ -1,2 +1,10 @@
 # CodingTest
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+------------------------------------------------------------
+- 해당 Repository는 코딩테스트 공부를 목적으로 개설하였습니다
+----------------------------------------
+# List
+
+<details>
+  <summary>접기/펼치기</summary> 
+  접은 내용
+</details>
