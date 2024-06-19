@@ -5,6 +5,12 @@
 # List
 
 <details>
-  <summary>접기/펼치기</summary> 
-  접은 내용
+  <summary>1. 스택</summary> 
+  스택은 데이터를 집어넣을 수 있는 선형 자료형으로 나중에 집어넣은 데이터가 먼저 나오는 LIFO(Last In First Out) 방식의 자료구조입니다.
+
+  - push : 데이터를 집어넣는 동작
+  - pop : 데이터를 추출하는 동작
+  - peek : 맨 나중에 집어넣은 데이터를 확인하는 동작
+
+  Ja
 </details>
