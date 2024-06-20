@@ -69,7 +69,9 @@ console.log(stack.peek()); // "hello"
 <details>
 	<summary>프로그래머스 Lv.2 기능 개발</summary>
 	- 문제 및 답안 링크 : https://github.com/LimJaeSub/CodingTest/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/42586.%E2%80%85%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C
+	
  - 풀이
+	
 ```javascript
 function solution(progresses, speeds) {
     // progresses : 현재 개발 진척도
