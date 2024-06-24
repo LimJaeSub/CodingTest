@@ -5,7 +5,9 @@
 # List
 
 <details>
-  <summary>1. 스택</summary> 
+  <summary>1. 스택&큐</summary> 
+
+ ### 스택
   스택은 데이터를 집어넣을 수 있는 선형 자료형으로 나중에 집어넣은 데이터가 먼저 나오는 LIFO(Last In First Out) 방식의 자료구조입니다.
 
   - push : 데이터를 집어넣는 동작
@@ -61,6 +63,33 @@ console.log(stack.size); // 2
 console.log(stack.peek()); // "hello"
 
 
+```
+
+### 큐
+
+큐(Queue)는 데이터를 집어넣을 수 있는 선형 자료형으로 스택과는 다르게 먼저 집어넣은 자료가 먼저 나옵니다. (FIFO - First in First Out)
+
+- enqueue : 데이터를 집어넣는 동작
+- dequeue : 데이터를 추출하는 동작
+
+### Queue in Javascript
+
+큐를 클래스로 구현하면 다음과 같습니다
+
+```javascript
+class Queue{
+	constructor(){
+  	this.storage = new Array();
+  }
+  
+  enqueue(element){
+  	this.storage.push(element);
+  }
+  
+  dequeue(){
+  	this.storage.shift();
+  }
+}
 ```
 
 ----------------------------
