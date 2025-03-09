@@ -22,8 +22,7 @@ public class Main {
         int result_x =0;
         int result_y =0;
 
-        int k = 0;
-
+        
         if(x_start+time>x_max){
 
                 int roadx = time-(x_max-x_start);
@@ -40,7 +39,7 @@ public class Main {
             result_x=x_start+time;
         }
 
-        int w = 0;
+
         if(y_start+time>y_max){
             int roady = time-(y_max-y_start);
             if((roady/y_max)%2==0){
@@ -56,13 +55,7 @@ public class Main {
         else{
             result_y = y_start+time;
         }
-
-
-
-
-
-
-
+        
         bw.write(result_x+" "+result_y);
         bw.flush();
         bw.close();
