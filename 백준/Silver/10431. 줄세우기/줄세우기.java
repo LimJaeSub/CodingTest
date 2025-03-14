@@ -1,31 +1,29 @@
 import java.io.*;
-import java.util.*;
- 
+import java.util.Arrays;
+
+
 public class Main {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
- 
-        int N = Integer.parseInt(br.readLine());
-		
-        for (int i=1; i<N+1; i++) {
-            StringTokenizer st = new StringTokenizer(br.readLine());
-			
-            Integer.parseInt(st.nextToken());
- 
-            int cnt = 0;
-            int[] num = new int[20];
-			
-            for (int j=0; j<20; j++) {
-                num[j] = Integer.parseInt(st.nextToken());
-            }
-			
-            for (int j=0; j<20; j++) {
-                for (int k=0; k<j; k++) {
-                    if (num[k] > num[j]) cnt++;
+        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+        int tc = Integer.parseInt(bf.readLine());
+
+
+        for(int i=0;i<tc;i++){
+            String input = bf.readLine();
+            int[] student = Arrays.stream(input.split(" ")).mapToInt(Integer::parseInt).toArray(); // 새로 안 문법
+            int movecount = 0;
+            for(int j=1;j<student.length;j++){
+                for(int k=1;k<j;k++){
+                    if(student[k]>student[j]){ // 처음부터 j 까지 애들 중 student[j]보다 큰 애들만 한발짝 물러서면됨
+                        movecount++;
+                    }
                 }
             }
-            
-            System.out.println(i + " " + cnt);
+            bw.write(i+1+" "+movecount+"\n");
         }
+        bw.close();
+
     }
 }
