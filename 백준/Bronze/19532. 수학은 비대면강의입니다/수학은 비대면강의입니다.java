@@ -1,6 +1,7 @@
 import java.util.*;
 import java.io.*;
 
+
 public class Main {
 
     public static void main(String[] args) throws IOException {
@@ -15,11 +16,21 @@ public class Main {
         int y2 = arr[4]; // y
         int func2 = arr[5]; // 상수항
 
-        int D = x1 * y2 - y1 * x2;
+        int D = x1*y2-y1*x2;
 
-        int find_x = (func1 * y2 - y1 * func2) / D;
-        int find_y = (x1 * func2 - func1 * x2) / D;
+        int find_x = (y2*func1 - y1*func2)/D;
+        int find_y = (x1*func2 - x2*func1)/D;
 
-        System.out.println(find_x + " " + find_y);
+
+
+
+        StringBuilder sb = new StringBuilder();
+        sb.append(find_x).append(" ").append(find_y);
+
+        System.out.println(sb);
+
+
+
+
     }
 }
