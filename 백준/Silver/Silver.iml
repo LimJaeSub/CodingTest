@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/1012. 유기농 배추" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10158. 개미" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10431. 줄세우기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10773. 제로" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10814. 나이순 정렬" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10815. 숫자 카드" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10828. 스택" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11068. 회문인 수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11650. 좌표 정렬하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11651. 좌표 정렬하기 2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11724. 연결 요소의 개수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1181. 단어 정렬" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1193. 분수찾기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1260. DFS와 BFS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1302. 베스트셀러" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1316. 그룹 단어 체커" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1427. 소트인사이드" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/14425. 문자열 집합" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1543. 문서 검색" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17103. 골드바흐 파티션" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18258. 큐 2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1874. 스택 수열" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18870. 좌표 압축" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1966. 프린터 큐" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2178. 미로 탐색" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/24313. 알고리즘 수업 － 점근적 표기 1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/25206. 너의 평점은" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2563. 색종이" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/28278. 스택 2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2910. 빈도 정렬" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2941. 크로아티아 알파벳" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3085. 사탕 게임" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3273. 두 수의 합" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4779. 칸토어 집합" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/7785. 회사에 있는 사람" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
